@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SAFE — Politique de confidentialité</title>
+  <style>
+    :root { --vert:#3CE6A6; --nuit:#0A0F1A; --nuit2:#121A2B; --txt:#EFF3FA; --txt2:#9AA7BE; --ombre:#5F6E8A; --ligne:#28344D; --grave:#FF5C68; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--nuit); color:var(--txt);
+      font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; line-height:1.65; }
+    .wrap { max-width:760px; margin:0 auto; padding:40px 22px 80px; }
+    header { border-bottom:1px solid var(--ligne); padding-bottom:22px; margin-bottom:8px; }
+    .logo { color:var(--vert); font-size:13px; letter-spacing:4px; font-weight:700; }
+    h1 { font-size:28px; margin:14px 0 6px; color:#fff; }
+    .maj { color:var(--txt2); font-size:13px; }
+    h2 { color:var(--vert); font-size:19px; margin:34px 0 10px; }
+    h3 { color:#fff; font-size:16px; margin:22px 0 6px; }
+    p, li { color:var(--txt); font-size:15.5px; }
+    a { color:var(--vert); }
+    ul { padding-left:20px; }
+    li { margin:5px 0; }
+    table { width:100%; border-collapse:collapse; margin:14px 0; font-size:14.5px; }
+    th, td { text-align:left; padding:10px 12px; border:1px solid var(--ligne); vertical-align:top; }
+    th { background:var(--nuit2); color:var(--vert); }
+    .note { background:var(--nuit2); border-left:3px solid var(--vert); padding:12px 16px; margin:18px 0; color:var(--txt2); font-size:14px; }
+    .alerte { background:var(--nuit2); border-left:3px solid var(--grave); padding:12px 16px; margin:18px 0; color:var(--txt2); font-size:14px; }
+    footer { margin-top:50px; padding-top:22px; border-top:1px solid var(--ligne); color:var(--txt2); font-size:13px; }
+    strong { color:#fff; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">SAFE</div>
+      <h1>Politique de confidentialité</h1>
+      <div class="maj">Dernière mise à jour : 14 juillet 2026</div>
+    </header>
+
+    <p>SAFE est une application de signalement de faits de sécurité dans l'espace public. Cette politique explique quelles données nous collectons, pourquoi, combien de temps, et quels sont tes droits. Elle est rédigée conformément au Règlement général sur la protection des données (RGPD).</p>
+
+    <div class="note">
+      <strong>Le point le plus important :</strong> SAFE <strong>ne stocke jamais ta position</strong>. Ni maintenant, ni dans un historique, ni sous une forme anonymisée. Ta position sert à calculer ce qui t'entoure, puis elle est jetée. Nous ne pouvons pas reconstituer tes déplacements, parce que nous ne les avons pas.
+    </div>
+
+    <h2>1. Qui est responsable de tes données</h2>
+    <p>L'éditeur de SAFE est <strong>Mars Boy</strong> (personne physique, France). Contact : <a href="mailto:monsieurgreen.pro@gmail.com">monsieurgreen.pro@gmail.com</a>. C'est aussi l'adresse à utiliser pour exercer tes droits ou signaler un contenu illicite.</p>
+
+    <h2>2. Ce que nous collectons, et ce que nous ne collectons pas</h2>
+    <table>
+      <tr><th>Donnée</th><th>Pourquoi</th><th>Conservation</th></tr>
+      <tr>
+        <td><strong>Adresse e-mail</strong></td>
+        <td>Créer ton compte, te connecter, sécuriser l'accès. Elle n'est <strong>jamais visible</strong> des autres utilisateurs.</td>
+        <td>Tant que ton compte existe.</td>
+      </tr>
+      <tr>
+        <td><strong>Pseudonyme public</strong></td>
+        <td>Attribuer un signalement à un compte (responsabilité). C'est la seule chose que les autres voient de toi.</td>
+        <td>Tant que ton compte existe.</td>
+      </tr>
+      <tr>
+        <td><strong>Confirmation « 15 ans ou plus »</strong></td>
+        <td>Âge minimum d'utilisation. Déclaratif : nous ne stockons <strong>pas</strong> ta date de naissance.</td>
+        <td>Tant que ton compte existe.</td>
+      </tr>
+      <tr>
+        <td><strong>Lieu du fait signalé</strong></td>
+        <td>C'est l'objet même du service : afficher le fait sur la carte. C'est la position <strong>d'un événement</strong>, pas la tienne.</td>
+        <td><strong>24 h</strong> (48 h pour les faits graves), puis suppression automatique définitive.</td>
+      </tr>
+      <tr>
+        <td><strong>Zones surveillées</strong></td>
+        <td>T'alerter près des lieux qui comptent pour toi. Stockées sous forme de <strong>cellule géographique grossière</strong> (environ 1 km de côté), calculée par le serveur. Jamais un point précis, jamais une adresse.</td>
+        <td>Jusqu'à ce que tu supprimes la zone.</td>
+      </tr>
+      <tr>
+        <td><strong>Photos et vidéos</strong> (facultatif)</td>
+        <td>Étayer un signalement. Prises <strong>uniquement avec la caméra de l'app</strong> (aucun import depuis ta galerie). Nous conservons la <strong>distance</strong> entre toi et le fait au moment de la prise, jamais la position de prise de vue.</td>
+        <td>Supprimées avec le signalement (24-48 h), ou immédiatement si elles sont rejetées à la modération.</td>
+      </tr>
+      <tr>
+        <td><strong>Confirmations et votes</strong></td>
+        <td>Savoir si un fait est confirmé par d'autres personnes sur place, et s'il est terminé. Nous conservons la <strong>distance</strong> au fait, jamais ta position.</td>
+        <td>Supprimés avec le signalement.</td>
+      </tr>
+      <tr>
+        <td><strong>Signalements d'abus</strong></td>
+        <td>Dispositif légal de retrait de contenu illicite (LCEN, DSA).</td>
+        <td>Supprimés avec le contenu concerné.</td>
+      </tr>
+      <tr>
+        <td><strong>Décisions de modération</strong></td>
+        <td>Tracer qui a retiré, rétabli ou banni, quand et pourquoi. Obligation de responsabilité, et notre preuve en cas de contestation.</td>
+        <td>Conservées après la suppression du contenu et du compte du modérateur (l'identité du modérateur est alors effacée).</td>
+      </tr>
+    </table>
+
+    <h3>Ce que nous ne collectons PAS</h3>
+    <ul>
+      <li><strong>Ta position, sous aucune forme.</strong> Pas d'historique, pas de trace, pas de « position au moment de la publication ». Le serveur la reçoit le temps d'un calcul et ne l'écrit nulle part.</li>
+      <li>Aucun identifiant publicitaire, aucun pisteur, aucun outil d'analyse comportementale.</li>
+      <li>Aucun contact, aucun carnet d'adresses, aucune photo de ta galerie.</li>
+      <li>Aucune donnée de santé, aucune donnée bancaire (l'application est gratuite).</li>
+    </ul>
+
+    <h2>3. Pourquoi nous avons le droit (bases légales)</h2>
+    <ul>
+      <li><strong>Exécution du service</strong> (art. 6.1.b RGPD) : compte, publication et lecture des signalements, zones surveillées.</li>
+      <li><strong>Obligation légale</strong> (art. 6.1.c) : conservation des décisions de modération, retrait des contenus illicites.</li>
+      <li><strong>Intérêt légitime</strong> (art. 6.1.f) : sécurité du service, lutte contre les faux signalements et les abus (plafonds, bannissement).</li>
+      <li><strong>Consentement</strong> (art. 6.1.a) : accès à la localisation de ton appareil (tu peux le refuser ou le retirer à tout moment dans les réglages de ton téléphone ; l'app reste consultable, mais elle ne peut plus centrer la carte sur toi ni vérifier ta proximité d'un fait).</li>
+    </ul>
+
+    <h2>4. Qui voit quoi</h2>
+    <ul>
+      <li><strong>Les autres utilisateurs</strong> voient : ton pseudo, la catégorie, le texte et le lieu du fait que tu signales, les photos ou vidéos une fois approuvées, le nombre de confirmations. <strong>Ils ne voient jamais</strong> ton e-mail, ta position, tes zones surveillées, ni l'historique de tes signalements.</li>
+      <li><strong>Les modérateurs</strong> voient en plus : les médias en attente d'approbation, les contenus signalés comme abusifs et leurs motifs.</li>
+      <li><strong>Personne</strong> ne peut aspirer la base : les lectures sont plafonnées (rayon maximum, nombre de résultats maximum) et un compte ne peut pas lire les signalements d'un autre autrement que par la carte.</li>
+    </ul>
+
+    <h2>5. Sous-traitants</h2>
+    <table>
+      <tr><th>Prestataire</th><th>Rôle</th><th>Où</th></tr>
+      <tr><td><strong>Supabase</strong></td><td>Hébergement de la base de données, authentification, stockage des médias</td><td>Union européenne — région <strong>Paris (eu-west-3)</strong></td></tr>
+      <tr><td><strong>Expo</strong></td><td>Distribution de l'application (phase de test)</td><td>États-Unis (aucune donnée personnelle transmise)</td></tr>
+    </table>
+    <p>Nous ne vendons, ne louons et n'échangeons aucune donnée. Il n'y a pas de publicité dans SAFE.</p>
+
+    <h2>6. Combien de temps</h2>
+    <ul>
+      <li><strong>Signalements, photos, vidéos, confirmations : 24 heures</strong> (48 heures pour les faits graves). Ils sont ensuite <strong>supprimés automatiquement</strong>, sans intervention humaine. Un radar de sécurité n'a aucune raison de garder le passé.</li>
+      <li><strong>Compte et zones</strong> : jusqu'à ce que tu les supprimes.</li>
+      <li><strong>Décisions de modération</strong> : conservées, car elles engagent notre responsabilité. Elles ne contiennent pas ton contenu, seulement la décision et son motif.</li>
+    </ul>
+
+    <h2>7. Tes droits</h2>
+    <p>Tu peux à tout moment :</p>
+    <ul>
+      <li><strong>Supprimer ton compte depuis l'application</strong> (Profil → Supprimer mon compte). Tout part avec : profil, signalements, médias, zones, confirmations. C'est immédiat et irréversible.</li>
+      <li>Demander l'accès, la rectification, la limitation ou la portabilité de tes données, et t'opposer à un traitement : <a href="mailto:monsieurgreen.pro@gmail.com">monsieurgreen.pro@gmail.com</a>. Réponse sous 30 jours.</li>
+      <li>Retirer l'accès à ta localisation dans les réglages de ton téléphone.</li>
+      <li>Introduire une réclamation auprès de la <a href="https://www.cnil.fr">CNIL</a>.</li>
+    </ul>
+
+    <h2>8. Mineurs</h2>
+    <p>SAFE est réservée aux personnes de <strong>15 ans ou plus</strong> (âge du consentement numérique en France). Si nous apprenons qu'un compte appartient à une personne plus jeune, il est supprimé.</p>
+
+    <h2>9. Sécurité</h2>
+    <p>Les données sont chiffrées en transit (HTTPS) et au repos. Chaque compte ne peut lire que ses propres lignes en base ; toute écriture passe par des fonctions serveur contrôlées (plafonds, vérification de proximité, filtre de contenu interdit). Les photos et vidéos sont dans un stockage <strong>privé</strong> : elles ne sont accessibles que par un lien signé, temporaire, et seulement une fois approuvées.</p>
+
+    <div class="alerte">
+      <strong>SAFE ne remplace jamais les secours.</strong> En cas d'urgence, appelle le <strong>112</strong> (ou le 17, le 18, le 114 pour les personnes sourdes et malentendantes). Le 112 transmet automatiquement ta position précise aux services d'urgence : aucune application ne fait mieux.
+    </div>
+
+    <h2>10. Modifications</h2>
+    <p>Toute évolution de cette politique sera annoncée dans l'application. La date de dernière mise à jour figure en haut de cette page.</p>
+
+    <footer>
+      SAFE — Éditeur : Mars Boy, France. Contact : monsieurgreen.pro@gmail.com<br />
+      Voir aussi les <a href="terms.html">Conditions générales d'utilisation</a>.
+    </footer>
+  </div>
+</body>
+</html>
